@@ -1,0 +1,110 @@
+/* App.css */
+
+@font-face {
+    font-family: "Futura";
+    src: url("./../../fonts/FuturaBT-Bold.otf") format("opentype");
+}
+
+.bodylanding {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(75deg, #a1e6e7, #a38beb, #e93af3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 300px;
+    padding: 40px;
+    position: relative;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #000000;
+    font-family: 'Futura';
+}
+
+.user-box {
+    position: relative;
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+    outline: none;
+    background: transparent;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #aaaaaa;
+    pointer-events: none;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.user-box input:focus~label,
+.user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #aaaaaa;
+    font-size: 12px;
+}
+
+.btn-login {
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 7.4rem;
+    border-radius: 5rem;
+    background: linear-gradient(90deg, #a1e6e7, #a38beb, #e93af3);
+}
+
+/* .btn-login:hover {
+    color: #aaaaaa;
+    background: #03a9f4;
+} */
+
+.icon {
+    color: #aaaaaa;
+    padding-right: 10px;
+}
+
+.btn-toggle {
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 1.4rem;
+    border-radius: 5rem;
+    background: linear-gradient(90deg, #a1e6e7, #a38beb, #e93af3);
+}

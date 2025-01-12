@@ -1,0 +1,61 @@
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+}
+
+.buttonnavbar {
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.buttonnavbar:hover {
+    cursor: pointer;
+}
+
+.buttonclicked {
+    background-color: transparent;
+    border: none;
+    color: #6171ff;
+    font-size: 1.2em;
+    margin: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-weight: bold;
+    height: 7vh;
+    border-bottom: 3px solid #6171ff;
+}
+
+.messagesbutton {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.profilebutton {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    color: black;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.burger-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

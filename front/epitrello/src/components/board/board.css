@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Futura";
+    src: url("./../../fonts/FuturaBT-Bold.otf") format("opentype");
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #a1e6e7, #a38beb, #e93af3);
+    overflow: auto;
+}
+
+.create-trello-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 20vh;
+}
+
+.create-trello-container input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #a38beb;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Futura';
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.create-trello-container input:focus {
+    border-color: #e93af3;
+    box-shadow: 0 0 10px rgba(233, 58, 243, 0.5);
+}
+
+.create-trello-container button {
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 4.4rem;
+    border-radius: 5rem;
+    /* border: 1px solid #fff; */
+    font-family: 'Futura';
+    background: #fff;
+}
+
+.create-trello-container button:hover {
+    border-color: #e93af3;
+    box-shadow: 0 0 30px rgba(233, 58, 243, 0.5);
+}
+
+.list-of-board-container {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* height: 100%; */
+    gap: 25px;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.trello-item {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 15px;
+    font-family: 'Futura';
+}
+
+.trello-item-content {
+    flex-grow: 1;
+}
+
+.delete-button {
+    margin-left: auto;
+}
+
+.trello-item:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    border-color: #e93af3;
+    box-shadow: 0 0 30px rgba(233, 58, 243, 0.5);
+}
+
+.title-board {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Futura';
+    text-decoration: underline;
+}
+
+.trello-item h3 {
+    font-family: 'Futura';
+}
+
+.logout-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.logout-btn button {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 4.4rem;
+    border-radius: 5rem;
+    font-family: 'Futura';
+    background: #fff;
+}
+
+.logout-btn button:hover {
+    border-color: #e93af3;
+    box-shadow: 0 0 30px rgba(233, 58, 243, 0.5);
+}
+
+/* .create-trello-container button {
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 4.4rem;
+    border-radius: 5rem;
+    border: 1px solid #fff;!!
+    font-family: 'Futura';
+    background: #fff;
+*/
